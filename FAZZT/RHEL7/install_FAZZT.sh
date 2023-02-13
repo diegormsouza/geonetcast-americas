@@ -150,9 +150,12 @@ echo "#     http://127.0.0.1:4039/admin/       #"
 echo "##########################################"
 
 # Additional commands:
+
+# systemctl restart httpd
+
 # /sbin/restorecon -v /usr/lib64/httpd/modules/mod_fsp.so
 # ausearch -c 'httpd' --raw | audit2allow -M my-httpd
 # semodule -i my-httpd.pp
 
-# start fazzt
-# restart httpd
+# systemctl start fazzt
+# systemctl restart httpd
