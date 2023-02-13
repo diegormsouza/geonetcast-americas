@@ -149,7 +149,7 @@ echo "# Open Firefox and access the following: #"
 echo "#     http://127.0.0.1:4039/admin/       #"
 echo "##########################################"
 
-# Additional commands:
+# Execute the following commands after the installation, in sequence:
 
 # systemctl restart httpd
 
